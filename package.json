@@ -3,7 +3,9 @@
   "version" : "0.0.0",
   "repository" : "https://github.com/ottojs/otto-mongoose.git",
   "main" : "./lib/index.js",
-  "dependencies" : {},
+  "dependencies" : {
+    "mongoose" : "3.8.14"
+  },
   "devDependencies" : {
     "jshint"   : "2.5.3",
     "mocha"    : "1.21.4",
